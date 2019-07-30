@@ -1,0 +1,16 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+i {
+	margin: 10px;
+}
+
+.nav-item {
+	font-size: 17px;
+}
+
+.spinner-grow {
+    visibility: hidden;
+}
