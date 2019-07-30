@@ -17,5 +17,5 @@ function hideSpinner() {
 }
 
 function showSpinner() {
-    document.getElementById("spin1").style.visibility = "visible"; 
+    document.getElementById("spin1").style.visibility = "visible";
 }

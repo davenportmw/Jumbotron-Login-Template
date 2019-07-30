@@ -40,36 +40,38 @@
 					</div>
 				</li>
 			</ul>
-            <button class="btn btn-outline-success ml-auto" type="submit" onclick="login()">Log In</button>
+            <button class="btn btn-sm btn-outline-success ml-auto" type="submit" onclick="goToLogin()">Sign Up</button>
 		</div>
     </nav>
 
     <main role="main">
+        <div class="container">
+            <div class="wrapper fadeInDown">
+              <div id="formContent">
+                <!-- Tabs Titles -->
 
-        <div class="wrapper fadeInDown">
-          <div id="formContent">
-            <!-- Tabs Titles -->
+                <!-- Icon -->
+                <div class="fadeIn first">
+                  <i id="userIcon" class="fa fa-lg fa-user"></i>
+                </div>
 
-            <!-- Icon -->
-            <div class="fadeIn first">
-              <i id="userIcon" class="fa fa-lg fa-user"></i>
+                <!-- Login Form -->
+                <form>
+                  <input type="text" id="login" class="fadeIn second" name="login" placeholder="Username">
+                  <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
+                  <input type="button" class="btn btn-success fadeIn fourth my-3" value="Log In" onclick="goToIndex()">
+                </form>
+
+                <!-- Forgot Password -->
+                <div id="formFooter">
+                  <a id="forgotPassword" class="underlineHover" href="">Forgot Password?</a>
+                </div>
+
+              </div>
             </div>
 
-            <!-- Login Form -->
-            <form>
-              <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
-              <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-              <input type="button" class="btn btn-success fadeIn fourth my-3" value="Log In" onclick="goToIndex()">
-            </form>
-
-            <!-- Forgot Password -->
-            <div id="formFooter">
-              <a id="forgotPassword" class="underlineHover" href="">Forgot Password?</a>
-            </div>
-
-          </div>
+            <hr>
         </div>
-
     </main>
 
     <footer class="container">
