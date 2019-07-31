@@ -1,5 +1,9 @@
 'use strict';
 
+function goToTodos() {
+    window.location.href = "http://localhost:8000/views/todo.html";
+}
+
 function goToLogin() {
     window.location.href = "http://localhost:8000/views/login.html";
 }
